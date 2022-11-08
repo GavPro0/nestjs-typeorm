@@ -2,7 +2,7 @@
 
 ## Description
 
-A persitence data backend with TypeORM for simple web store using [NestJS](https://github.com/nestjs/nest).
+A persistence data backend with TypeORM for simple web store using [NestJS](https://github.com/nestjs/nest).
 
 
 ## Installation
