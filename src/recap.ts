@@ -1,5 +1,5 @@
 const myName = 'Pepe';
-const myAge = 12;
+const myAge = 18;
 const suma = (a: number, b: number) => {
   return a + b;
 };
