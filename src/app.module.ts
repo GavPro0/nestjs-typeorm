@@ -9,21 +9,21 @@ import { ProductsModule } from './products/products.module';
 import { DatabaseModule } from './database/database.module';
 import { enviroments } from './enviroments';
 import config from './config';
-import { Client } from 'pg';
+// import { Client } from 'pg';
 
-const client = new Client({
-  user: 'root',
-  host: 'localhost',
-  database: 'my_db',
-  password: '123456',
-  port: 5432,
-});
+// const client = new Client({
+//   user: 'root',
+//   host: 'localhost',
+//   database: 'my_db',
+//   password: '123456',
+//   port: 5432,
+// });
 
-client.connect();
-client.query('SELECT * FROM tasks', (err, res) => {
-  console.error(err);
-  console.log(res.rows);
-});
+// client.connect();
+// client.query('SELECT * FROM tasks', (err, res) => {
+//   console.error(err);
+//   console.log(res.rows);
+// });
 
 @Module({
   imports: [
