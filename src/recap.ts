@@ -15,3 +15,5 @@ class Persona {
 
 const pepe = new Persona(15, 'pepe 8-s');
 pepe.getSummary();
+
+
